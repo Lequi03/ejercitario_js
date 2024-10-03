@@ -3,33 +3,29 @@
 
 function compareTenAndNine() {
 
-    let comparación
-    comparación = 10 >= 9
-    console.log(comparación)
+    let comparacion = (10 >= 9)
+    console.log(comparacion)
 }
 
 // 2. Comprueba si 0 es igual a 0 e imprime el resultado en consola.
 function compareZeroAndZero() {
     
-    let comprobación1
-    comprobación1 = 0 === 0
-    console.log(comprobación1)
+    let comprobacion1 = (0 === 0)
+    console.log(comprobacion1)
 }
 
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
     
-    let comprobación2
-    comprobación2 = 7 > 8 && 7 < 10
-    console.log(comprobación2)
+    let comprobacion2 = (7 > 8 && 7 < 10) 
+    console.log(comprobacion2)
 }
 
 // Operadores lógicos
 // 4. Verifica si puedes comprar un producto de 1500 con un descuento del 25% teniendo 1150€ e imprime si puedes o no.
 function canBuyProduct() {
     
-    let compra
-    compra = 1500 - (1500 * 0.25) <= 1150
+    let compra = 1500 - (1500 * 0.25) <= 1150
     console.log("Puedo comprar?", compra)
 
 }
@@ -80,14 +76,16 @@ function createUndefinedVariable() {
 // 10. Escribe un código para ver el tipo de una variable llamada `userName` e imprime el tipo de dato en consola.
 function checkUserNameType() {
     
-    typeof userName
+    let userName = "Leandro"
+    console.log(typeof userName)
 
 }
 
 // 11. Asegúrate de que `dogId` es una cadena de texto y luego imprime el tipo de dato en consola.
 function checkDogIdIsString() {
     
-    typeof "dogId"
+    let dogId = "dogId"
+    console.log(typeof dogId)
 
 }
 
